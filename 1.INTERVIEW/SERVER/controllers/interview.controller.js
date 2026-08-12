@@ -1,6 +1,6 @@
 
 import fs from "fs";
-import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
+import { getDocument } from "pdfjs-dist/legacy/build/pdf.js";
 import { askAi } from "../services/openRouter.service.js";
 import Interview from "../models/interview.model.js";
 import User from "../models/user.model.js";
