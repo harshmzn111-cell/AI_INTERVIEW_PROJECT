@@ -1,5 +1,5 @@
 import express from "express";
-import isAuth from "../middlewares/isAuth.js";
+import isAuth from "../middlewares/isauth.js";
 import {
   createOrder,
   verifyPayment,
