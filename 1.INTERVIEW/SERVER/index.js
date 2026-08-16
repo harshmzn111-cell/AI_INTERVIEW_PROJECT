@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT ||  6000;
 
 app.use(cors({
-  origin: "https://localhost:5173",
+  origin: "https://ai-interview-project-client.onrender.com",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
