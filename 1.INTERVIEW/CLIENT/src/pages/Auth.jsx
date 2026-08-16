@@ -8,7 +8,7 @@ import { motion } from "motion/react"
 import { auth, provider } from "../utils/firebase"
 import { signInWithPopup } from "firebase/auth"
 
-const serverUrl = "https://https://ai-interview-project-server.onrender.com";
+const serverUrl = "https://ai-interview-project-server.onrender.com";
 function Auth({isModel=false}) {
 const dispatch = useDispatch();
   
