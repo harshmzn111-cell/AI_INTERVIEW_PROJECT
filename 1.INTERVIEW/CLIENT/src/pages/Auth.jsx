@@ -21,7 +21,7 @@ const handleGoogleSignIn = async () => {
       let email = user.email;
       const result =await axios.post(serverUrl+"/api/auth/google",{name,email},{withCredentials:true});
       console.log("Google sign-in successful:", result.data);
-      dispatch(setUserData(result.data));
+      dispatch(setUserData(result.data.user));
   } catch (error) {
     console.error("Error during Google sign-in:", error);
     dispatch(setUserData(null));
