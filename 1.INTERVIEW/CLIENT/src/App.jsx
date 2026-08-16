@@ -10,7 +10,7 @@ import axios from "axios";
 
 import { useEffect } from "react";
 axios.defaults.withCredentials = true;
-export const serverUrl = "https://ai-interview-project-2.onrender.com";
+export const serverUrl = "http://localhost:8000";
 import { useDispatch } from "react-redux";
 import { setUserData } from "./redux/userSlice.js";
 
